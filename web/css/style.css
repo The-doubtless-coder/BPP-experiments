@@ -1,0 +1,69 @@
+/*global values*/
+/*label{*/
+/*    display: inline-block;*/
+/*}*/
+/*input{*/
+/*    display: block;*/
+/*}*/
+body{
+    font-family: "JetBrains Mono";
+    background-color: bisque;
+    display: grid;
+    place-content: center;
+}
+.submit-btn{
+    padding: 10px 12px;
+    color: black;
+    background-color: coral;
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    display: block;
+}
+.submit-btn:hover{
+    opacity: 0.8;
+}
+/*main values */
+.stud-form{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stud-form h1, .stud-form h2{
+    text-align: center;
+}
+.form{
+    margin: 30px;
+    padding: 10px 12px;
+    background-color: burlywood;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.welcome.into{
+    height: 100vh;
+}
+.rza{
+    width: 100%;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.rza h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: 22px;
+    color: green;
+}
+.rza h1.red{
+    color: red;
+}
+
+
